@@ -6,7 +6,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def home():
-    return "Bot is alive!"
+    return "The evil nuker is working !"
 
 def run():
     # Render automatically sets the port via PORT environment variable
