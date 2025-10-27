@@ -1,19 +1,23 @@
 # webserver.py
 from flask import Flask
 from threading import Thread
+import os
 
 app = Flask(__name__)
+_server_started = False
 
-@app.route('/')
+@app.route("/")
 def home():
-    return "The evil nuker is working !"
+    return "Bot simulator alive!"
 
-def run():
-    # Render automatically sets the port via PORT environment variable
-    import os
+def _run():
     port = int(os.environ.get("PORT", 8080))
-    app.run(host='0.0.0.0', port=port)
+    app.run(host="0.0.0.0", port=port)
 
 def keep_alive():
-    t = Thread(target=run)
+    global _server_started
+    if _server_started:
+        return
+    t = Thread(target=_run, daemon=True)
     t.start()
+    _server_started = True
