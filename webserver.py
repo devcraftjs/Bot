@@ -8,7 +8,7 @@ _server_started = False
 
 @app.route("/")
 def home():
-return "Support Server:https://discord.gg/tWP6PmSPrv "
+    return "Bot simulator alive!"
 
 def _run():
     port = int(os.environ.get("PORT", 8080))
