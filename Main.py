@@ -1,13 +1,11 @@
-
 import discord
 from discord.ext import commands
 import random
 from webserver import keep_alive
-keep_alive()
 from discord import Permissions
 from colorama import Fore, Style
 import asyncio
-token = "MTQzMjEzMzA5Mjc5NzE5MDE2NA.GHWIuC.AaY7UIfCmTgydWec-AlxEgTV2HnwB-lU4SVPio"
+token = "MTQzMjEzMzA5Mjc5NzE5MDE2NA.GBly-I.Ow8nvSBiAKR42q9WlPG5cP8Wf50J0feCOd7LDU"
 
 
 SPAM_CHANNEL =  ["SentinelShield runs you" , "Get fuckeg" , "NUKED" , "oops SentinelShield","F IN CHAT SentinelShield","Should Have Listened","Get NUKED clowns","Nuked by SentinelShield ","oops got nuked","I run you","Nuked by SentinelShield","I run you","Big ty to adam"]
