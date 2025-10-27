@@ -6,7 +6,6 @@ import random
 from discord import Permissions
 from colorama import Fore, Style
 import asyncio
-from webserver import keep_alive
 token = "MTQzMjEzMzA5Mjc5NzE5MDE2NA.GHWIuC.AaY7UIfCmTgydWec-AlxEgTV2HnwB-lU4SVPio"
 
 
