@@ -3,6 +3,7 @@ import discord
 from discord.ext import commands
 import random
 from webserver import keep_alive
+keep_alive()
 from discord import Permissions
 from colorama import Fore, Style
 import asyncio
